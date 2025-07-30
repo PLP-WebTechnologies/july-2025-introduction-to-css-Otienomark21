@@ -1,0 +1,172 @@
+/* Basic Reset & Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    /* Box Model: Padding top/bottom and background color */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    /* Box Model: Margin-bottom for spacing */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arranges list items horizontally */
+    justify-content: center; /* Centers navigation items */
+}
+
+nav ul li {
+    margin: 0 15px;
+    /* Box Model: Margin-left/right for spacing between links */
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    /* Box Model: Padding for clickable area */
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+/* Main Content Area */
+main {
+    max-width: 960px; /* Constrains content width */
+    margin: 20px auto; /* Centers the main content horizontally and adds vertical spacing */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Box Model: Margin, Padding, Border-radius, Box-shadow */
+}
+
+/* Section and Article Styling */
+section, article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    /* Box Model: Margin-bottom, Padding, Border, Border-radius */
+}
+
+section h2, article h2 {
+    color: #2980b9;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* Box Model: Margin-top/bottom for spacing around headings */
+}
+
+section h3 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    /* Box Model: Margin-bottom for paragraph spacing */
+}
+
+/* Image Styling within Article */
+figure {
+    margin: 20px 0;
+    text-align: center;
+    /* Box Model: Margin top/bottom */
+}
+
+figure img {
+    max-width: 100%; /* Makes image responsive */
+    height: auto;
+    display: block; /* Removes extra space below image */
+    margin: 0 auto; /* Centers the image */
+    border: 1px solid #ccc; /* Adds a subtle border */
+    border-radius: 5px;
+    /* Box Model: Max-width, Border, Border-radius */
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    /* Box Model: Margin-top for spacing */
+}
+
+/* Aside Styling */
+aside {
+    background-color: #e0f2f7;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    margin-top: 30px;
+    border-radius: 5px;
+    /* Box Model: Padding, Border-left, Margin-top */
+}
+
+aside h3 {
+    color: #2980b9;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 5px;
+}
+
+aside a {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    /* Box Model: Padding top/bottom, Margin-top */
+}
+
+footer address {
+    font-style: normal; /* Resets default italic style for address */
+    margin-top: 10px;
+}
+
+footer address a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+footer address a:hover {
+    text-decoration: underline;
+}
