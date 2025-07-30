@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Web Page: Structure, Accessibility & SEO</title>
+    <meta name="description" content="A basic web page demonstrating HTML5 semantic tags, accessibility best practices, and beginner-friendly SEO principles.">
+    <meta name="keywords" content="HTML5, semantic, accessibility, SEO, web design, structure">
+</head>
+<body>
+    <!-- Header section: Contains the main title and site navigation. -->
+    <header>
+        <h1>Welcome to Our Semantic Web Page</h1>
+        <!-- Navigation section: Provides links to different parts of the site or important external resources. -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section: Contains the dominant content of the <body>. -->
+    <main>
+        <!-- Section: A thematic grouping of content, typically with a heading. -->
+        <section id="home">
+            <h2>Understanding Semantic HTML</h2>
+            <p>Semantic HTML elements clearly describe their meaning to both the browser and the developer. This helps in creating a well-structured document that is easier to read, maintain, and understand, especially for assistive technologies and search engines.</p>
+            <p>Instead of generic <code>&lt;div&gt;</code> tags, we use elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code> to give context to our content.</p>
+        </section>
+
+        <!-- Article: Represents a self-contained composition in a document, page, application, or site. -->
+        <article id="about">
+            <h2>Our Mission for Web Accessibility</h2>
+            <p>Our mission is to build web experiences that are accessible to everyone, regardless of their abilities or the technology they use. By adhering to web standards and best practices, we ensure that our content is perceivable, operable, understandable, and robust for all users.</p>
+            <p>Key accessibility features include proper heading hierarchy, descriptive link text, and alternative text for images. These elements significantly improve the experience for users relying on screen readers and other assistive devices.</p>
+            <!-- Figure and Figcaption for an image, enhancing accessibility by associating a caption. -->
+            <figure>
+                <img src="https://placehold.co/600x400/000000/FFFFFF?text=Open+In+Web" alt="Illustration of a diverse group of people accessing the internet, symbolizing web accessibility.">
+                <figcaption>Empowering all users through accessible web design.</figcaption>
+            </figure>
+        </article>
+
+        <section id="services">
+            <h2>SEO-Friendly Content Strategies</h2>
+            <p>Search Engine Optimization (SEO) is crucial for discoverability. By structuring our HTML semantically, using relevant keywords, and organizing content logically with proper heading tags, we make it easier for search engine crawlers to understand and index our pages.</p>
+            <h3>Key SEO Elements:</h3>
+            <ul>
+                <li><strong>Descriptive Title Tag:</strong> The <code>&lt;title&gt;</code> tag is the first impression for search engines and users.</li>
+                <li><strong>Meta Description:</strong> A concise summary of the page's content, encouraging clicks.</li>
+                <li><strong>Heading Hierarchy:</strong> <code>&lt;h1&gt;</code> for the main topic, followed by <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, etc., to structure content.</li>
+                <li><strong>Meaningful Content:</strong> High-quality, relevant text that addresses user queries.</li>
+            </ul>
+        </section>
+       
+
+        <!-- Aside: Content that is tangentially related to the content around it. -->
+        <aside aria-label="Related Resources">
+            <h3>Further Reading</h3>
+            <ul>
+                <li><a href="https://www.w3.org/WAI/" target="_blank">W3C Web Accessibility Initiative (WAI)</a></li>
+                <li><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank">Google SEO Starter Guide</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer section: Contains copyright information, contact details, etc. -->
+    <footer>
+         <section id="contact">
+            <p>&copy; 2025 Semantic Web Page. All rights reserved.</p>
+        <address>
+            Email: <a href="mailto:info@example.com">info@example.com</a><br>
+            Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
+        </address>
+
+        </section>
+    </footer>
+</body>
+</html>
